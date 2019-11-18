@@ -13,7 +13,6 @@ public class String2 {
 		System.out.println(sen1.contains("Raning"));
 		
 		
-
 	}
 
 }
