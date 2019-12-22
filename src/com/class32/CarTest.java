@@ -38,7 +38,7 @@ class Sedan extends Car {
 	int length;
 
 	Sedan(double carPrice, String color, int length) {
-		super(carPrice, color);
+		super(carPrice,color);
 		this.length = length;
 	}
 

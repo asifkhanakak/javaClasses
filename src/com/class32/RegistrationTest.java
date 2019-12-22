@@ -78,7 +78,11 @@ public class RegistrationTest {
 	public static void main(String[] args) {
 
 		RegistrationClass obj = new RegistrationClass();
+		obj.setEmail("a@yahoo.com");
+		System.out.println(obj.getEmail());
 		obj.setUsername("John123445");
 		System.out.println(obj.getUsername());
+		obj.setPassword("khan1234");
+		System.out.println(obj.getPassword());
 	}
 }
